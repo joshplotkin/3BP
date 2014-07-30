@@ -1,0 +1,6 @@
+\beamer@endinputifotherversion {3.33pt}
+\beamer@sectionintoc {3}{Fold Equity}{9}{0}{1}
+\beamer@sectionintoc {4}{Preying Off Weakness}{11}{0}{2}
+\beamer@sectionintoc {5}{Big Pots with Big Hands}{13}{0}{3}
+\beamer@sectionintoc {6}{Stack:Pot Ratio and Being OOP}{15}{0}{4}
+\beamer@sectionintoc {7}{EV is Magnified}{17}{0}{5}
