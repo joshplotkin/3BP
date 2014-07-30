@@ -9,4 +9,5 @@ tags: project, josh plotkin, jsp2014
 
 * This repo will host all the files for the 3-betting series.
 * The folders will share the same structure as the tree image.
-* Image:
+
+![Initial Tree](https://github.com/joshplotkin/3BP/blob/master/Initial%20Tree/tree.png)
