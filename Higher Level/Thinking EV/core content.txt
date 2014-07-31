@@ -1,0 +1,92 @@
+
+\section{Fold Equity}
+\begin{frame}
+\frametitle{Fold Equity}
+\begin{itemize}
+\item MP Villain opens to 3bb
+\pause
+\item Hero 3-bets BB to 10bb with 75s
+\pause
+\item $EV(Fold)$ = \pause 0
+\pause
+\item $EV(Call) < EV(Fold)$
+\pause
+\item EV if villain folds 100\% of the time?
+\pause
+\item EV if villain folds 0\% of the time?
+\item how much EV you have to make, given fold equity vs. how much when calling
+\item TODO annotate heatmap
+\end{itemize}
+\end{frame}
+
+\subsection{Villain Folds 100\%}
+\begin{frame}
+\frametitle{Villain Folds 100\%}
+\begin{itemize}
+\item $E[\text{3-bet}] = P(\text{villain folds})E[\text{villain folds}]$ +\\
+$\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\; P(\text{doesn't fold})E[\text{doesn't fold}]$
+\pause
+\item $E[\text{3-bet}] = 1\cdot E[\text{villain folds}] + 0\cdot E[\text{doesn't fold}]$
+\pause
+\item $E[\text{3-bet}] = E[\text{villain folds}] $
+\pause
+\item $E[\text{3-bet}] = \text{Size of the pot} =  4.5 bb$
+\end{itemize}
+\end{frame}
+
+\subsection{Villain Folds 0\%}
+\begin{frame}
+\frametitle{Villain Folds 0\%}
+\begin{itemize}
+\item $E[\text{3-bet}] = P(\text{villain folds})E[\text{villain folds}]$ +\\
+$\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\; P(\text{doesn't fold})E[\text{doesn't fold}]$
+\pause
+\item $E[\text{3-bet}] = 0\cdot E[\text{villain folds}] + 1\cdot E[\text{doesn't fold}]$
+\pause
+\item $E[\text{3-bet}] = E[\text{doesn't fold}] $
+\pause
+\item $E[\text{3-bet}] = \text{Size of the pot} =  4.5 bb$
+\end{itemize}
+\end{frame}
+
+\subsection{Villain folds 60\%}
+\begin{frame}
+\frametitle{Villain folds 60\%}
+\begin{itemize}
+\item $E[\text{3-bet}] = P(\text{villain folds})E[\text{villain folds}]$ +\\
+$\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\; P(\text{doesn't fold})E[\text{doesn't fold}]$
+\pause
+\item $E[\text{3-bet}] = 0.60\cdot 4.5 + 0.40\cdot E[\text{doesn't fold}]$
+\pause
+\item $0 \leq 2.7 + 0.4\cdot E[\text{doesn't fold}]$
+\pause
+\item 
+\item $E[\text{3-bet}] = \text{Size of the pot} =  4.5 bb$
+\end{itemize}
+\end{frame}
+
+\section{Fold Equity}
+\begin{frame}
+\frametitle{Fold Equity}
+\begin{itemize}
+\item $\textellipsis$
+\item EV if villain folds 100\% of the time?
+\item EV if villain folds 0\% of the time?
+\pause
+\item If villain folds 60\%, what does the $E[\text{doesn't fold}]$ have to in order for $E[\text{3-bet}] \geq E[\text{Fold}]$
+\item how much EV you have to make, given fold equity vs. how much when calling
+\item TODO annotate heatmap
+% good slide for some math homework
+\end{itemize}
+\end{frame}
+
+
+
+\subsection{Fold Equity Heatmap}
+\begin{frame}
+\frametitle{Fold Equity Heatmap}
+\begin{figure}[!H]
+    \includegraphics[width=100mm]{FE.png}
+    \label{fig:label}
+\end{figure}
+\end{frame}
