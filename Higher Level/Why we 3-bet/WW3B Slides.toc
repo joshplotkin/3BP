@@ -1,6 +1,9 @@
 \beamer@endinputifotherversion {3.33pt}
-\beamer@sectionintoc {3}{Fold Equity}{9}{0}{1}
-\beamer@sectionintoc {4}{Preying Off Weakness}{11}{0}{2}
-\beamer@sectionintoc {5}{Big Pots with Big Hands}{13}{0}{3}
-\beamer@sectionintoc {6}{Stack:Pot Ratio and Being OOP}{15}{0}{4}
-\beamer@sectionintoc {7}{EV is Magnified}{17}{0}{5}
+\select@language {USenglish}
+\beamer@sectionintoc {2}{Isolating Weak Players}{8}{0}{1}
+\beamer@sectionintoc {3}{Fold Equity}{10}{0}{2}
+\beamer@subsectionintoc {3}{1}{$\frac {\text {risk}}{\text {risk}+\text {reward}}$}{18}{0}{2}
+\beamer@sectionintoc {4}{Preying Off Weakness}{35}{0}{3}
+\beamer@sectionintoc {5}{Big Pots with Big Hands}{37}{0}{4}
+\beamer@sectionintoc {6}{Stack:Pot Ratio and Being OOP}{39}{0}{5}
+\beamer@sectionintoc {7}{EV is Magnified}{45}{0}{6}
