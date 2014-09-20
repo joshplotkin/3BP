@@ -19,4 +19,5 @@ tags: deucescracked, DC, video, 3-bet, 3-bet pots, bet sizing
 * There is a .py files (and soon .java) with the working algorithm
 * There is an ipython notebook if you care to see the algorithm used
 * This will be my first web app using java so it will take some (hopefully not too much) time
-
+* The original, analytical calculation [can be found here](https://docs.google.com/spreadsheet/ccc?key=0Ah-RPYT3zwKodFpLa1JjM0pVbXZPczhoU05XOWVRYlE&usp=drive_web#gid=0)
+* iPython notebook for algorithmic calculation [can be found here](http://nbviewer.ipython.org/github/joshplotkin/3BP/blob/master/Higher%20Level/StackPot%20Ratio/app/Bet%20Sizing.ipynb).
