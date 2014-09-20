@@ -45,7 +45,7 @@ public class Street {
 	// remove this eventually
 	public void output(){
 		System.out.printf("Bet Size: %f\n", this.returnBetOrRaise());
-		System.out.printf("Vill Bet: %f\n", this.villbet);
+		//System.out.printf("Vill Bet: %f\n", this.villbet);
 		System.out.printf("Final Pot: %f \n", this.pot);
 		System.out.printf("Final Stack: %f\n\n", this.stack);
 	}

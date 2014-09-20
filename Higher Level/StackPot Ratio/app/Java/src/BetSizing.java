@@ -2,8 +2,8 @@
 public class BetSizing {
 	
 	// print out sizing by street (eventually return an array)
-	public static void returnSizes(Street c, double pct, int streetsRem, double betpct){
-		for(int i = 1; i < streetsRem; i++){			
+	public static void returnSizes(Street c, double pct, int streetsRem){
+		for(int i = 1; i <= streetsRem; i++){			
 			Street prev = c;
 			c = new Street(prev.returnFinalPot(), prev.returnFinalStack(), -1);
 			c.setBetPct(pct);
@@ -75,7 +75,6 @@ public class BetSizing {
 		}
 	}
 	
-	
 	public static void main(String []args){
 		double pot = 10;
 		double stack = 100;
@@ -86,6 +85,12 @@ public class BetSizing {
 		// start.output();		
 		// returnSizes(start, pct, streetsRem, pct);
 		// System.out.println(testSize(start, pct, streetsRem));
-		System.out.println(binarySearch(guess, pot, stack, streets, villbet));
+		double optimal = binarySearch(guess, pot, stack, streets, villbet);
+		returnSizes(new Street(pot, stack, villbet), optimal, streets);
+	
+		/* TODO:
+		 * - simple web app: takes the 5 inputs in a form, return bet %
+		 * - gradually build from there
+		 */
 	}
 }
